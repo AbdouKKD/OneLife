@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0;
+  }
+  
+  .navbar-menu a {
+    text-decoration: none;
+    color: var(--blue); /* Blue for default link color */
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: var(--green); /* Green for hover background */
+    color: white; /* White text on hover */
+  }
+  

@@ -1,0 +1,106 @@
+/* Auth Container Styles */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F5F5; /* Light Gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Auth Card */
+.auth-card {
+    background: #fff; /* White background for the card */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title inside Auth Card */
+.auth-card h2 {
+    margin-bottom: 10px;
+    color: #4CAF50; /* Green title color */
+}
+
+/* Paragraph inside Auth Card */
+.auth-card p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Toggle Button Container */
+.toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Toggle Button Styling */
+.toggle-container button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+/* Active Toggle Button */
+.toggle-container .active {
+    color: #2196F3; /* Blue for active toggle */
+    border-bottom: 2px solid #2196F3; /* Blue border on active */
+}
+
+/* Form Group Styles */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label Styles */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Input Field Styles */
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff; /* White background for inputs */
+}
+
+/* Auth Button Styling */
+.auth-button {
+    background: #2196F3; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button Hover Effect */
+.auth-button:hover {
+    background: #1976D2; 
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Success Message Styling */
+.success {
+    color: green;
+    margin-top: 10px;
+}
